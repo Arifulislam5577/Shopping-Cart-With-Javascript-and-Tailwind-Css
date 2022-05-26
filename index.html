@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShoppingCart</title>
+    <link href="/dist/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="py-5 bg-yellow-400">
+      <div class="container">
+        <div class="logo-box">
+          <h1 class="logo font-bold text-xl">ShoppingCart</h1>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-20">
+      <div class="container">
+        <div
+          class="grid md:grid-cols-3 lg:grid-cols-4 grid-cols-2 gap-5"
+          id="productArea"
+        >
+          <div class="md:cols-span-1 w-full border shadow p-5">
+            <div class="img-area">
+              <img
+                src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+                alt="product"
+                class="h-20 text-center mx-auto"
+              />
+            </div>
+            <div class="des mx-auto text-center flex flex-col gap-3">
+              <h3 class="text-center text-sm">
+                Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+              </h3>
+              <h4>Price: $300</h4>
+              <button class="py-2.5 px-5 mx-auto bg-black rounded text-white">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/src/app.js"></script>
+  </body>
+</html>
